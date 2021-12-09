@@ -1,10 +1,11 @@
 import "./css/app.css";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
-      <header>Elf on the Shelf Mischief</header>
-      <main></main>
+      <header></header>
+      <Main />
       <footer>Created by Todd Heckeler</footer>
     </>
   );
